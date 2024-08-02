@@ -151,3 +151,30 @@ main {
     margin-top: 5px;
     font-style: normal;
 }
+
+.research {
+    padding: 50px 10%;
+}
+
+.research li {
+    margin-bottom: 10px;
+    list-style-type: none;
+}
+
+footer {
+    text-align: center;
+}
+
+.research .italic {
+    text-align: center;
+}
+
+#endnote {
+    background-color: #3882f6;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    color: #f9faf8;
+    padding: 20px;
+}

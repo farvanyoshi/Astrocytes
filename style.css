@@ -4,27 +4,24 @@ body {
     justify-content: center;
     font-family: Roboto, sans-serif;
     margin: 0;
-    padding-top: 49px;
+}
+
+.header, footer {
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    background-color: #1F2937;
+    justify-content: center;
 }
 
 .sticky {
     position: fixed;
     top: 0;
-    width: 100%;
-}
-
-.header {
-    display: flex;
-    position: fixed;
-    top: 0;
     left: 0;
-    width: 100%;
+    width: 80%;
     z-index: 1000;
-    padding: 10px;
-    justify-content: space-around;
-    align-items: center;
-    background-color: #1F2937;
-
+    justify-content: space-between;
+    padding: 0 10%;
 }
 
 .logo {
@@ -46,4 +43,15 @@ body {
     color: #e5e7eb;
     font-size: 18px;
     text-decoration: none;
+}
+
+.splash {
+    padding: 59px 10% 0 10%;
+
+}
+
+.main {
+    font-size: 48px;
+    font-weight: 800;
+    color: #f9faf8;
 }

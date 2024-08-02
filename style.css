@@ -10,8 +10,8 @@ body {
     display: flex;
     padding: 10px;
     align-items: center;
-    background-color: #1F2937;
     justify-content: center;
+    background-color: #1F2937;
 }
 
 .sticky {
@@ -21,7 +21,8 @@ body {
     width: 80%;
     z-index: 1000;
     justify-content: space-between;
-    padding: 0 10%;
+    padding: 10px 10%;
+    gap: 20px;
 }
 
 .logo {
@@ -47,11 +48,43 @@ body {
 
 .splash {
     padding: 59px 10% 0 10%;
+    gap: 2%;
+}
 
+.intro {
+    width: 49%;
 }
 
 .main {
     font-size: 48px;
     font-weight: 800;
     color: #f9faf8;
+    margin: 0;
+}
+
+img {
+    width: 100%;
+}
+
+main {
+    flex: auto;
+    padding: 0 10%;
+}
+
+.types {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info-header {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1f2937;
+    margin: 20px;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
 }

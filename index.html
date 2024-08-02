@@ -9,31 +9,31 @@
 </head>
 <body>
     <a id="splash"></a>
-    <header class="header sticky">
+    <header class="sticky">
         <div class="logo">Astrocytes</div>
         <nav>
             <ul class="navlinks">
                 <li><a href="#splash" class="second">Back to Top</a></li>
                 <li><a href="#about" class="second">About Astrocytes</a></li>
-                <li><a href="./functions/func-path.html" class="second">Functions and Pathology</a></li>
-                <li><a href="./research/research.html" class="second">Current Research</a></li>
+                <li><a href="#functions" class="second">Functions</a></li>
+                <li><a href="#research" class="second">Current Research</a></li>
             </ul>
         </nav>
     </header>
-    <div class="header splash">
+    <div class="splash">
         <div class="intro">
             <h1 class="main">Astrocytes! The Star Cells of the CNS</h1>
             <p class="second">These star-shaped glial cells are absolutely essential for forming, maintaining, and regulating the brain and spinal cord.</p>
             <p class="second"><em>From Greek:</em> ástron (star) + kútos (cell)</p>
+            <a id="about"></a>
         </div>
         <div class="intro">
             <img src="./images/astrocyte.jpg" alt="An image of an astrocyte within the brain">
         </div>
-        <a id="about"></a>
     </div>
     <main>
-        <div class="types">
-            <div class="info-header">The Three Types of Astrocytes</div>
+        <section class="types">
+            <h1 class="info-header">The Three Types of Astrocytes</h1>
             <div class="info">
                 <div class="infotype">
                     <img src="./images/fibrous-astrocyte.jpg" alt="A fibrous astrocyte">
@@ -81,11 +81,97 @@
                     </p>
                 </div>
             </div>
-        </div>
+        </section>
+        <a id="functions"></a>
+        <section class="functions">
+            <header>
+                <h1 class="info-header">Functions and Pathology</h1>
+            </header>
+            <ol class="italic">
+                <li>
+                    <section>
+                        <h1>Support and Maintenance of Neurons</h1>
+                        <p>
+                            Astrocytes provide:
+                            <ul>
+                                <li>Structural Support</li>
+                                <p>
+                                    Form the physical structure of the brain, maintain the neural network,
+                                    <br>
+                                    provide a scaffold to support neuronal cells and synapses.
+                                </p>
+                                <li>Metabolic Support</li>
+                                <p>
+                                    Supply neurons with nutrients such as lactate, derived from stored glycogen,
+                                    <br>
+                                    which is crucial for high neuronal activity, where much more energy is needed.
+                                </p>
+                            </ul>
+                        </p>
+                    </section>
+                    <img src="https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41593-019-0367-6/MediaObjects/41593_2019_367_Fig1_HTML.png" alt="gain and loss of function of neuron wih astrocyte">
+                </li>
+                <li>
+                    <section>
+                        <h1>Regulation of Blood-Brain Barrier</h1>
+                        <p>
+                            Astrocytes are critical to build and maintain the blood-brain barrier.
+                            <ul>
+                                <li>Endfeet Contact</li>
+                                <p>
+                                    The endfeet enwrap blood vessels, regulating the endothelial cells and ensuring
+                                    <br>
+                                    only select substances can travel between the blood and the brain.
+                                </p>
+                                <li>Barrier Maintenance</li>
+                                <p>
+                                    By releasing many different types of signaling molecules, astocytes keep the cells
+                                    <br>
+                                    of blood vessel walls packed, preventing toxins from entering the brain.
+                                </p>
+                            </ul>
+                        </p>
+                    </section>
+                    <img src="./images/astrocyte+vessel.jpg" alt="Astrocyte attached to blood vessel">
+                </li>
+                <li>
+                    <section>
+                        <h1>Regulation of Neurotransmitters</h1>
+                        <p>
+                            Astrocytes are the regulators of neurotransmitters at neuronal synapses.
+                            <br>
+                            This is called the tripartite synapse, and it is fair to say that this is
+                            <br>
+                            <strong>the most important function</strong> of the astrocyte.
+                            <ul>
+                                <li>Cleaning Up</li>
+                                <p>
+                                    With transporter proteins, astrocytes clean up leftover neurotransmitters
+                                    <br>
+                                    (like glutamate and ATP) after an electrical signal passes through the synapse.
+                                    <br>
+                                    This prevents overexcited neurons (which are bad) so the synapse works properly.
+                                </p>
+                                <li>The Astrocyte Input</li>
+                                <p>
+                                    Astrocytes can also release neurotransmitters of their own into the synapse,
+                                    <br>
+                                    which can drastically influence the receiving neuron's behaviour.
+                                </p>
+                            </ul>
+                        </p>
+                    </section>
+                    <img src="https://www.ikerbasque.net/sites/default/files/synapse.jpg" alt="Astrocyte at the tripartite synapse">
+                </li>
+            </ol>
+        </section>
     </main>
     <footer>
         <p class="second">
-            Made from scratch by Nirvan Joshi. View this project on <a style="color: #e5e7eb;" href="https://github.com/StormsEdge/Astrocytes" target="_blank" rel="noopener noreferrer">GitHub</a>!</p>
+            Made from scratch by Nirvan Joshi.
+            View this project on
+            <a style="color: #e5e7eb;" href="https://github.com/StormsEdge/Astrocytes" target="_blank" rel="noopener noreferrer">GitHub</a>!
+        </p>
     </footer>
 </body>
 </html>

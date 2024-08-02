@@ -11,3 +11,5 @@ current research being done into this amazing type of cell.
 This project uses copyrighted material by the principle of fair use. By this
 principle, copyrighted material can be used for nonprofit educational purposes
 without attribution. Since this is a small project, it should not matter too much.
+
+Thank you to Aarnav Suwal (aarnav593) for adding the foot process note in the footer.

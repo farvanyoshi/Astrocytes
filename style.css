@@ -145,6 +145,7 @@ main {
 .italic img {
     margin-left: auto;
     object-fit: contain;
+    width: 80vh;
 }
 
 .italic ul > p {

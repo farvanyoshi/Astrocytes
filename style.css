@@ -132,14 +132,19 @@ main {
     margin: 0;
 }
 
+.italic section {
+    width: 100%;
+}
+
 .italic > li {
     display: flex;
     margin-bottom: 40px;
+    gap: 40px;
 }
 
 .italic img {
-    width: 40%;
     margin-left: auto;
+    object-fit: contain;
 }
 
 .italic ul > p {

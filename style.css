@@ -1,0 +1,29 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+/* remove this later */
+div {
+    border: 1px solid black;
+}
+
+.header {
+    display: flex;
+    padding: 5px;
+    flex: 1 1 0;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.title {
+    margin: 0;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    gap: 10px;
+    padding: 0;
+    margin: auto 0;
+}

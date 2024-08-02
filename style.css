@@ -47,7 +47,7 @@ body {
 }
 
 .splash {
-    padding: 59px 10% 0 10%;
+    padding: 150px 10%;
     gap: 2%;
 }
 
@@ -69,6 +69,7 @@ img {
 main {
     flex: auto;
     padding: 0 10%;
+    margin-top: 50px;
 }
 
 .types {
@@ -99,10 +100,19 @@ main {
 .infotype > img {
     border: 5px solid #3882f6;
     border-radius: 20px;
+    width: 95%;
 }
 
 .quote {
     margin: 4px;
     font-size: 18px;
+    color: #1f2937;
+    border: 3px solid black;
+    border-top: none;
+    padding: 5px;
+}
+
+.quote > a {
+    font-weight: bold;
     color: #1f2937;
 }
